@@ -8,13 +8,18 @@ function App() {
   const [color, setColor] = useState('orange');
   
   const changeColor = (event) => {
+
+    let newColor = '';
+
     if (event === 'red') {
-      setColor('red');
+      newColor = 'red';
     } else if (event === 'blue') {
-      setColor('blue');
+      newColor = 'blue';
     } else {
-      setColor('green');
+      newColor = 'green';
     }
+
+    setColor(newColor);
   }
 
   return (

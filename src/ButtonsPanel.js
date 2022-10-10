@@ -17,5 +17,4 @@ function ButtonsPanel(props) {
     )
 }
 
-
 export default ButtonsPanel;
